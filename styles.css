@@ -35,8 +35,8 @@ body, html{
 
 .playing{
 	transform: scale(1.1);
-	border-color: #ffc600;
-	box-shadow: 0 0 1rem #ffc600;
+	border-color: #ff0080;
+	box-shadow: 0 0 1rem #ff0080;
 
 }
 
@@ -49,6 +49,17 @@ kbd{
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
-	color: #ffc600;
+	color: #ff0080;
+}
 
+.hello{
+	display: flex;
+	justify-content: center;
+}
+
+div p{
+	font-size: 2rem;
+	color: white;
+	max-width: 800px;
+	text-align: center;
 }
